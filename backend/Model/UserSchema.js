@@ -1,6 +1,6 @@
 // Importing required modules
 import mongoose from "mongoose"; // For database schema and interactions
-import bcrypt from "bcrypt"; // For hashing passwords
+import bcrypt from "bcryptjs"; // For hashing passwords
 import validator from "validator"; // For validating email and password strength
 import nodemailer from "nodemailer"; // For sending emails
 

@@ -1,6 +1,6 @@
 // Importing required modules
 import mongoose from 'mongoose'; // For defining the database schema and interactions
-import bcrypt from "bcrypt"; // For hashing OTP codes
+import bcrypt from "bcryptjs"; // For hashing OTP codes
 import validator from "validator"; // For email validation
 import crypto from "crypto"; // For generating secure random OTPs
 import nodemailer from "nodemailer"; // For sending emails

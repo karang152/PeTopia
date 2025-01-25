@@ -2,7 +2,7 @@
 import User from "../Model/UserSchema.js"; // Importing the User model for database operations
 import jwt from "jsonwebtoken"; // For creating and verifying JSON Web Tokens
 import validator from "validator"; // For validating inputs (like email, password)
-import bcrypt from "bcrypt"; // For hashing passwords securely
+import bcrypt from "bcryptjs"; // For hashing passwords securely
 
 // Function to create a JSON Web Token
 const createToken = (_id) => {
