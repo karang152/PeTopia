@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "npx nodemon server.js",
+    "dev": "nodemon server.js",
     "postinstall": "npm install -g nodemon"
   },
   "type": "module",
