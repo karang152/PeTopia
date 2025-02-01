@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/NavBar/Navbar";
-import Home from "./Components/Home/Home";
-import Footer from "./Components/Footer/Footer";
-import Services from "./Components/Services/Services";
-import Contact from "./Components/Contact/Contact";
-import Pets from "./Components/Pets/Pets";
-import AdoptForm from "./Components/AdoptForm/AdoptForm";
-import AdminLogin from "./Components/AdminPanel/AdminLogin";
+import Navbar from "./components/NavBar/Navbar";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
+import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
+import Pets from "./components/Pets/Pets";
+import AdoptForm from "./components/AdoptForm/AdoptForm";
+// import AdminLogin from "./components/AdminPanel/AdminLogin.";
 import "./App.css";
 
 const Layout = ({ children }) => (
@@ -62,10 +62,10 @@ const App = () => {
             </Layout>
           } 
         />
-        <Route 
+        {/* <Route 
           path="/admin" 
           element={<AdminLogin />} 
-        />
+        /> */}
       </Routes>
     </Router>
   );
